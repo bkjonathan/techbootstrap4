@@ -1,0 +1,81 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>Collapse</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <h1 class="align-middle text-center text-lg-left">Learning Bootstrap 4</h1>
+                <p class="display-2 text-center text-lg-left">Learn Bootstrap 4 The most Popular HTML5 CSS3 JS
+                    Framework</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<h2 class="lecture-title">Collapse / Accordion</h2>
+
+<main class="container">
+    <div class="row">
+        <div class="col-8">
+            <div class="" id="maincoll" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="card-header " role="tab" id="heading1">
+                        <a data-toggle="collapse" data-parent="#maincoll" href="#service1" aria-expanded="true"
+                           aria-controls="service1" class="btn">Web Design</a>
+                    </div>
+                    <div id="service1" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="card-block">
+                            This comprehensive tutorial contains everything you have to know about WordPress Theme
+                            development, starting with setting the environment, through WordPress installation and
+                            configuration, setting up theme construction, development including custom widgets and
+                            functions.
+                        </div>
+                    </div>
+                </div>
+                <div class="card-">
+                    <div class="card-header" role="tab" id="heading2">
+                        <a data-toggle="collapse" data-parent="#maincoll" href="#service2" aria-expanded="true" aria-controls="service2" class="btn">Ecommerce</a>
+                    </div>
+                    <div id="service2" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="card-block">
+                            This comprehensive tutorial contains everything you have to know about WordPress Theme
+                            development, starting with setting the environment, through WordPress installation and
+                            configuration, setting up theme construction, development including custom widgets and
+                            functions.
+                        </div>
+                    </div>
+                </div>
+                <div class="card-">
+                    <div class="card-header" role="tab" id="heading3">
+                        <a data-toggle="collapse" data-parent="#maincoll" href="#service3" aria-expanded="true" aria-controls="service3" class="btn">Ecommerce</a>
+                    </div>
+                    <div id="service3" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="card-block">
+                            This comprehensive tutorial contains everything you have to know about WordPress Theme
+                            development, starting with setting the environment, through WordPress installation and
+                            configuration, setting up theme construction, development including custom widgets and
+                            functions.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="../js/jquery.slim.js"></script>
+<script src="../js/tether.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/scripts.js"></script>
+</body>
+</html>
