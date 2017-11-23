@@ -20,7 +20,35 @@ require_once 'template/head.php';
     </div>
 
 </header>
+   <div class="navigation py-2 mt-4">
+     <nav class="main-nav py-2">
+       <div class="container">
 
+           <ul class="nav nav-justified flex-column flex-sm-row">
+             <li class="nav-item">
+               <a href="#" class="nav-link">Home</a>
+             </li>
+             <li class="nav-item">
+               <a href="#" class="nav-link">Product</a>
+             </li>
+             <li class="nav-item">
+               <a href="#" class="nav-link">Service</a>
+             </li>
+             <li class="nav-item">
+               <a href="#" class="nav-link">About</a>
+             </li>
+             <li class="nav-item">
+               <a href="#" class="nav-link">Contact Us</a>
+             </li>
+            </ul>
+
+
+
+       </div>
+
+     </nav>
+
+   </div>
 <?php
 require_once 'template/foot.php';
 ?>
