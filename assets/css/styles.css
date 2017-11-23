@@ -24,3 +24,34 @@ nav.main-nav .nav-link {
     color: white;
     font-family: 'Lato', cursive;
 }
+.carousel-caption h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    font-weight: 900;
+    /*color: #ffff;*/
+
+}
+
+h2{
+    color: #e082a8;
+    font-size: 4rem;
+}
+h2 span{
+    font-size: 2.4rem;
+}
+h1 , h2{
+    font-family: 'Mukta Malar', sans-serif;
+    color: black;
+    line-height: 2.4rem;
+}
+h1 span,h2 span{
+    font-family: 'Pacifico', sans-serif;
+    display: block;
+    color: red;
+}
+.new-website ,p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    color:#979797;
+}
+
