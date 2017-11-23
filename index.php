@@ -9,7 +9,7 @@ require_once 'template/head.php';
         <div class="col-12 col-lg-4">
             <nav class="socials">
                 <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
+                <a href="#">Twitters</a>
                 <a href="#">Instagram</a>
                 <a href="#">Pinterest</a>
                 <a href="#">Youtube</a>
