@@ -1,3 +1,27 @@
+
+.new-website p{
+  font-size: 1.6rem;
+  color:#0b1450;
+}
+h2{
+  font-family: 'Pacifico', cursive;
+}
+h2 span{
+  color:black;
+
+}
+h2 span,h3 span{
+font-family: 'Shadows Into Light', cursive;
+display:block;
+color:red;
+}
+
+h2, h3{
+  font-family: 'Libre Baskerville', serif;
+  color:#0ab6a1;
+  line-height:normal;
+}
+
 .navigation{
   background-color:#007bff !important;
 }
@@ -21,3 +45,9 @@ nav.main-nav .nav-link{
   color:white;
   font-family: 'Pacifico', cursive;
 }
+.carousel-item .carousel-caption h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:#fff;
+  }
