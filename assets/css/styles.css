@@ -42,6 +42,19 @@ nav.main-nav .nav-link {
     font-family: 'Pacifico', cursive;
     font-size: 1.2rem;
 }
+/* Nav for Mobile */
+#mobile-nav ul .nav-link:hover {
+    background-color: rgb(40, 180, 170);
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+#mobile-nav ul .nav-link{
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    /*background-color: #05ffa3;*/
+}
 
 /*Social Icons*/
 .socials ul li {
