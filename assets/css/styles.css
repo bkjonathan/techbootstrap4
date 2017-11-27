@@ -1,4 +1,6 @@
-
+body{
+    background-color:#ffffff;
+}
 .new-website p{
   font-size: 1.6rem;
   color:#0b1450;
@@ -15,13 +17,40 @@ font-family: 'Shadows Into Light', cursive;
 display:block;
 color:red;
 }
-
+h3{
+    font-size:1.4rem;
+}
+h3 span{
+    font-size:1.5rem;
+}
 h2, h3{
   font-family: 'Libre Baskerville', serif;
   color:#0ab6a1;
   line-height:normal;
 }
+.socials ul li{
+    list-style: none;
+    display: inline-block;
+}
+ .socials.fa-facebook-square,.fa-twitter-square,.fa-instagram,.fa-pinterest-square,.fa-youtube-square{
+    color:hotpink;
 
+}
+ .socials .fa-facebook-square:hover{
+     color: #5cb85c;
+ }
+ .socials .fa-twitter-square:hover{
+     color: #5cb85c;
+ }
+ .socials .fa-instagram:hover{
+     color: #5cb85c;
+ }
+ .socials .fa-pinterest-square:hover{
+     color: #5cb85c;
+ }
+ .socials .fa-youtube-square:hover{
+     color: #5cb85c;
+ }
 .navigation{
   background-color:#007bff !important;
 }
@@ -51,3 +80,146 @@ nav.main-nav .nav-link{
     font-weight: 600;
     color:#fff;
   }
+.image-links img{
+    border:6px solid darkseagreen;
+    -webkit-transition:transforms.3s ease;
+    -ms-transition:transforms.3s ease;
+    transition: transforms .3s ease;
+}
+.image-links img:hover{
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -ma-transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(10deg);
+}
+
+.image-info{
+    background-color: #C8D2CC;
+    margin-top:-50px;
+}
+.image-info .btn-success{
+    background-color:#362636 ;
+    border:none;
+    border-radius:0;
+}
+.image-info .btn-success:hover{
+    background-color: #464a4c;
+}
+.business-hours{
+    background-color: #2aabd2;
+    color:#ffffff;
+}
+.business-hours h2{
+    background-color: #ffffff;
+}
+.bg-hours{
+    background-image: url("../img/bg_hours.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    min-height: 300px;
+}
+
+table{
+    border: 1px solid yellow;
+}
+.table td,.table thead th{
+    border:none;
+}
+.table tbody tr td{
+    padding:.35rem;
+}
+.table-danger,.table-hover .table-danger:hover{
+    background-color: hotpink;
+}
+
+.products .card{
+    border:none;
+}
+.products.card a{
+    color: #000;
+}
+.products .card a:hover{
+    text-decoration: none;
+}
+.products .card h3{
+    font-size: 1.3rem;
+    color:#e082a8;
+
+}
+.products .card p{
+    font-size: .8rem;
+    font-family: 'Pacifico', cursive;
+    color:#979797;
+}
+.appointment{
+    background-image: url("../img/bg_appointment.jpg");
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-attachment: fixed;
+    color:#fff;
+}
+.appointment h3{
+    font-size: 3.5rem;
+    color:#fff;
+    line-height:4rem;
+}
+.appointment p{
+    line-height: 2.6rem;
+    color:#fff;
+
+}
+@media(min-width:992px){
+.appointment{
+    background-size: cover;
+}
+}
+
+@media (max-height: 576px) {
+    .appointment h3{
+        font-size: 12px !important;
+    }
+
+    .appointment p{
+        font-size: 10px;
+    }
+}
+
+.appointment.btn-danger{
+    background-color: #bed3cc;
+    border:none;
+    border-radius: 0;
+    padding: 1rem 3rem;
+    font-family: 'Pacifico', cursive;
+
+}
+.appointment.btn-danger:hover{
+    background-color:chocolate;
+}
+.hero{
+    position: relative;
+}
+.hero h2{
+    background-color: #8ed3cc;
+    bottom: 2rem;
+    position: absolute;
+    right:0;
+    padding: 1rem 2rem 1rem 8rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#f7f7f7;
+}
+.main-content{
+    line-height:2rem;
+    font-family: 'Pacifico', cursive;
+}
+.sidebar{
+    background-color: #8ed3cc;
+    color: #ffffff;
+}
+.sidebar h2{
+    color: #ffffff;
+}
+.sidebar p{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+}
