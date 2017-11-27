@@ -49,10 +49,10 @@ nav.main-nav .nav-link {
     display: inline-block;
 }
 
-.socials ul li a::before {
-    display: inline-block;
-    padding: 0 1rem;
-}
+/*.socials ul li a::before {*/
+    /*display: inline-block;*/
+    /*padding: 0 1rem;*/
+/*}*/
 
 .socials .fa-facebook-official, .fa-twitter-square, .fa-youtube-square, .fa-instagram, .fa-pinterest-square {
     color: hotpink;
@@ -264,4 +264,39 @@ h3 span {
 .site-footer p.copyright {
     color: #979797;
     font-family: 'Lato', sans-serif;
+}
+
+/* For About US*/
+.hero{
+    position: relative;
+}
+.hero h2{
+    background-color: cyan ;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    padding: 1rem 2rem 1rem 5rem;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lato',sans-serif;
+    font-weight: 900;
+}
+
+.sidebar .hours{
+    /*background-color: #05ffa3;*/
+    color: white;
+}
+
+.sidebar .hours h3{
+color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+}
+.sidebar .hours p{
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2rem;
+}
+
+.main-content p{
+    line-height: 2.1rem;
 }
